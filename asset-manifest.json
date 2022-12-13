@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/responsivedesign-portfolio/static/css/main.916a176c.chunk.css",
+    "main.js": "/responsivedesign-portfolio/static/js/main.239ccfdd.chunk.js",
+    "main.js.map": "/responsivedesign-portfolio/static/js/main.239ccfdd.chunk.js.map",
+    "runtime-main.js": "/responsivedesign-portfolio/static/js/runtime-main.0d9c435b.js",
+    "runtime-main.js.map": "/responsivedesign-portfolio/static/js/runtime-main.0d9c435b.js.map",
+    "static/css/2.c4e73993.chunk.css": "/responsivedesign-portfolio/static/css/2.c4e73993.chunk.css",
+    "static/js/2.ee928dce.chunk.js": "/responsivedesign-portfolio/static/js/2.ee928dce.chunk.js",
+    "static/js/2.ee928dce.chunk.js.map": "/responsivedesign-portfolio/static/js/2.ee928dce.chunk.js.map",
+    "static/js/3.45fba33a.chunk.js": "/responsivedesign-portfolio/static/js/3.45fba33a.chunk.js",
+    "static/js/3.45fba33a.chunk.js.map": "/responsivedesign-portfolio/static/js/3.45fba33a.chunk.js.map",
+    "index.html": "/responsivedesign-portfolio/index.html",
+    "static/css/2.c4e73993.chunk.css.map": "/responsivedesign-portfolio/static/css/2.c4e73993.chunk.css.map",
+    "static/css/main.916a176c.chunk.css.map": "/responsivedesign-portfolio/static/css/main.916a176c.chunk.css.map",
+    "static/js/2.ee928dce.chunk.js.LICENSE.txt": "/responsivedesign-portfolio/static/js/2.ee928dce.chunk.js.LICENSE.txt",
+    "static/media/Chinatown.37669304.png": "/responsivedesign-portfolio/static/media/Chinatown.37669304.png",
+    "static/media/Redesign.ad76f9dc.png": "/responsivedesign-portfolio/static/media/Redesign.ad76f9dc.png",
+    "static/media/balsamiq.c27a7a4b.png": "/responsivedesign-portfolio/static/media/balsamiq.c27a7a4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d9c435b.js",
+    "static/css/2.c4e73993.chunk.css",
+    "static/js/2.ee928dce.chunk.js",
+    "static/css/main.916a176c.chunk.css",
+    "static/js/main.239ccfdd.chunk.js"
+  ]
+}
