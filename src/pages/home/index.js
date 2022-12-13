@@ -4,6 +4,9 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import Chinatown from "../../assets/images/Chinatown.png"
+import Balsamiq from "../../assets/images/balsamiq.png"
+import Redesign from "../../assets/images/Redesign.png"
 
 export const Home = () => {
   return (
@@ -22,32 +25,70 @@ export const Home = () => {
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                        introdata.animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 10,
-                    }}
-                  />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
-                </div>
+                <img src={Chinatown} alt="Chinatown" width="500" height="600" />
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p className="mb-1x">{introdata.issuesone}</p>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p className="mb-1x">{introdata.issuestwo}</p>
+                <img src={Balsamiq} alt="balsamiq" width="500" height="600" />
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p className="mb-1x">{introdata.balsamiq}</p>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <img src={Redesign} alt="redesign" width="500" height="600" />
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                <p className="mb-1x">{introdata.closer} <a href="https://agressivepanda444.github.io/responsivedesign/">here</a></p>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+                
               </div>
             </div>
           </div>
